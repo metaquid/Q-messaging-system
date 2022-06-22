@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>q</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <img src="q.png" alt="Q messaging system" />
+      <form action="#">
+		<!--<label for="message">Q messaging system &nbsp;</label>-->
+		<input id="message" alt="message" type="text" placeholder="Enter your message here ..." size="50" maxlength="80" />
+		<fieldset>
+			<select id="channel" style="font-size:30px">
+				<option value="0" selected="selected">channel 0</option>
+				<option value="1">channel 1</option>
+				<option value="2">channel 2</option>
+				<option value="3">channel 3</option>
+				<option value="4">channel 4</option>
+				<option value="5">channel 5</option>
+				<option value="6">channel 6</option>
+				<option value="7">channel 7</option>
+				<option value="8">channel 8</option>
+				<option value="9">channel 9</option>
+			</select>
+		</fieldset>
+		<button type="submit">UPDATE MESSAGES</button>
+      </form>
+      <section id="news"></section>
+      <br>
+      <div id="footnote">
+		<b>Q messaging system</b>
+		decentralyzed and uncensored, run on internet computer
+		<br>
+		note: every 100 lines the system resets the single channel
+      </div>
+    </main>
+  </body>
+</html>
